@@ -1,0 +1,5 @@
+<Files *.html>
+ForceType application/x-httpd-php
+</Files>
+
+RedirectMatch /imagelib/* http://history.library.ucsf.edu/photos.html
