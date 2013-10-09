@@ -31,7 +31,6 @@ a:active {
 }
 -->
 </style>
-<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 </head>
 
 <body onload="document.forms['cse-search-box'].elements['q'].focus();">
@@ -39,16 +38,17 @@ a:active {
 <div id="mainbody">
 <?php include "includes/ucsf_banner.php" ?>
   <div id="flash">
-    <script type="text/javascript">
-AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','900','height','314','src','images/intro','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','images/intro' ); //end AC code
-</script>
-    <noscript>
       <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="900" height="314">
         <param name="movie" value="images/intro.swf" />
         <param name="quality" value="high" />
-        <embed src="images/intro.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="900" height="314"></embed>
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="images/intro.swf" width="900" height="314">
+        <!--<![endif]-->
+          <img src="images/home_header.jpg" width="900" height="314" />
+        <!--[if !IE]>-->
+        </object>
+          <!--<![endif]-->
       </object>
-    </noscript>
   </div>
   <div id="gradient"><img src="images/gradient.jpg" /></div>
   <div id="homebody">
@@ -70,11 +70,11 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
           <li><a href="2000.html" class="main_nav_text"><strong>2000</strong>+</a></li>
         </ul>
       </div>
-      <div id="homecopy_text"> Celebrating the rich heritage of UCSF, from its origins in early 
-        San Francisco to its place today at the forefront of biomedical 
-        technology, research, education, and health care. This history 
-        charts the development of the Schools of Dentistry, Medicine, 
-        Nursing, and Pharmacy, the Graduate Division, and the UCSF 
+      <div id="homecopy_text"> Celebrating the rich heritage of UCSF, from its origins in early
+        San Francisco to its place today at the forefront of biomedical
+        technology, research, education, and health care. This history
+        charts the development of the Schools of Dentistry, Medicine,
+        Nursing, and Pharmacy, the Graduate Division, and the UCSF
         Medical Center.</div>
     </div>
     <div id="sidebar">
@@ -96,5 +96,4 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 <?php include "includes/footer.php" ?>
 </div>
 </body>
-
 </html>
