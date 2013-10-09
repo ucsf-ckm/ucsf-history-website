@@ -1,0 +1,7 @@
+*~
+*.patch
+*build.properties
+.buildpath
+.project
+.settings
+.idea
