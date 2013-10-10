@@ -1,0 +1,8 @@
+*~
+*.swp
+*.patch
+*.sh
+.DS_Store
+.project
+.idea
+_site
