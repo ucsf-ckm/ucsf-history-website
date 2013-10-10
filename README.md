@@ -11,7 +11,7 @@ In order to build and deploy the site, you need to have [Ruby](https://www.ruby-
 In your local repository root, run
 
 ```
-jekyll --destination <path to your webroot>
+jekyll build --destination <path to your webroot>
 ```
 
 This will build and the site to your webroot directory in one step.
