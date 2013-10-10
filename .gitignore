@@ -1,7 +1,8 @@
 *~
 *.swp
-.DS_Store
 *.patch
+*.sh
+.DS_Store
 .project
 .idea
 _site
