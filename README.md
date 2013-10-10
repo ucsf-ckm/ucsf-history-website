@@ -14,7 +14,7 @@ In your local repository root, run
 jekyll build --destination <path to your webroot>
 ```
 
-This will build and the site to your webroot directory in one step.
+This will build and deploy the site to your webroot directory in one step.
 
 ### Legal
 
