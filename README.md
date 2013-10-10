@@ -1,6 +1,6 @@
 ### About 
 
-This repository hold the source code of the [UCSF History](http://history.library.ucsf.edu) website.
+This repository holds the source code of the [UCSF History](http://history.library.ucsf.edu) website.
 
 ### Requirements
 
