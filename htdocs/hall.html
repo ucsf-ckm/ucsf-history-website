@@ -29,9 +29,9 @@ a:active {
 </head>
 
 <body onload="document.forms['cse-search-box'].elements['q'].focus();">
-<?php include "includes/google_analytics.html" ?>
+{% include includes/google_analytics.html %}
 <div id="mainbody">
-<?php include "includes/ucsf_banner.html" ?>
+{% include includes/ucsf_banner.html %}
 <div id="rotator"><a href="index.html" id="rotator_home_link"></a>
 </div>
 <div id="insidebody">
@@ -49,7 +49,7 @@ Zach Hall completed his B.S. degree in English at Yale University in 1958, and c
 </div>
 </div>
 <div id="sidebar">
-<div id="sidenav_inside"><?php include "search_include.html" ?><br />
+<div id="sidenav_inside">{% include search_include.html %}<br />
     <div id="sidenavtype">
   <a href="story.html" class="sidenavtype"><strong>THE STORY</strong></a><br/>
   <br/>
@@ -67,7 +67,7 @@ Zach Hall completed his B.S. degree in English at Yale University in 1958, and c
 </div>
 </div>
 <br class="clearit" />
-<?php include "includes/footer.html" ?>
+{% include includes/footer.html %}
 </div>
 </body>
 </html>
