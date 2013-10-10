@@ -4,17 +4,17 @@
 
 
 #mainbody {
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	background-image:url(images/back_home.jpg);
-	background-repeat:repeat-y;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(images/back_home.jpg);
+    background-repeat:repeat-y;
 }
 
 #topbar {
-	width: 900px;
-	height: 30px;
-	background-color:#000000;
+    width: 900px;
+    height: 30px;
+    background-color:#000000;
 }
 
 #flash {
@@ -32,11 +32,11 @@
 
 #homebody {
     width:900px;
-	height:300px;
+    height:300px;
     margin:0;
     padding:0;
-	background-image:url(images/back_home.jpg);
-	background-repeat:repeat-y;
+    background-image:url(images/back_home.jpg);
+    background-repeat:repeat-y;
 }
 
 #insidebody {
@@ -87,7 +87,7 @@ position:relative;
     width:674px;
     height:24px;
     margin:0;
-	padding-top:175px;
+    padding-top:175px;
 }
 
 #main_nav
@@ -123,8 +123,8 @@ color:#242443;
 
 #main_nav a
 {
-	display: block;
-	text-decoration: none;
+    display: block;
+    text-decoration: none;
 }
 
 #main_nav li
@@ -142,7 +142,7 @@ float: left;
     width:226px;
     margin:0;
     padding:0;
-	float:left;
+    float:left;
 }
 
 #sidenav {
@@ -158,11 +158,11 @@ float: left;
 }
 
 #sidenavtype {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	line-height:15px;
-	color:#ca7c29;
-	text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:15px;
+    color:#ca7c29;
+    text-decoration:none;
 }
 
 #sidenavtype a:hover {
@@ -228,24 +228,24 @@ color:#9a403d;
 
 #homecopy {
     width:674px;
-	height:300px;
+    height:300px;
     margin:0;
-	background:none;
-	float:left;
+    background:none;
+    float:left;
 }
 
 #insidecopy {
     width:674 px;
     margin:0;
-	background:none;
-	float:left;
+    background:none;
+    float:left;
 }
 
 #photocopy {
     width:674px;
     margin:0;
-	background:none;
-	float:left;
+    background:none;
+    float:left;
 }
 
 
@@ -254,8 +254,8 @@ color:#9a403d;
 #homecopy_text {
     width:502px;
     margin:0;
-	padding:28px 80px 0px 92px ;
-	font-family:Arial, Helvetica, sans-serif;
+    padding:28px 80px 0px 92px ;
+    font-family:Arial, Helvetica, sans-serif;
 font-size:18px;
 line-height:30px;
 color:#000000;
@@ -264,8 +264,8 @@ color:#000000;
 #insidecopy_text {
     width:520px;
     margin:0;
-	padding:0px 60px 0px 94px ;
-	font-family:Arial, Helvetica, sans-serif;
+    padding:0px 60px 0px 94px ;
+    font-family:Arial, Helvetica, sans-serif;
 font-size:.75em;
 line-height:19px;
 color:#000000;
@@ -278,8 +278,8 @@ text-decoration:underline;
 #photocopy_text {
     width:580px;
     margin:0;
-	padding:0px 0px 0px 94px ;
-	font-family:Arial, Helvetica, sans-serif;
+    padding:0px 0px 0px 94px ;
+    font-family:Arial, Helvetica, sans-serif;
 font-size:.75em;
 line-height:19px;
 color:#000000;
@@ -293,16 +293,16 @@ color:#8c2626;
 
 #footnotes {
 font-family:Arial, Helvetica, sans-serif;
-	font-size:.9em;
-	line-height: 13px;
-	color:#242443;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
 }
 
 .footnotes {
 font-family:Arial, Helvetica, sans-serif;
-	font-size:10px;
-	line-height: 13px;
-	color:#8c2626;
+    font-size:10px;
+    line-height: 13px;
+    color:#8c2626;
 }
 
 /* Purple subhead */
@@ -329,20 +329,20 @@ color:#949b50;
 #dates {
     width:520px;
     margin:0;
-	padding:0;
+    padding:0;
 }
 
 #dates_text {
 width:40px;
     margin:0;
-	padding:0;
+    padding:0;
 float:left;
 }
 
 #dates_body {
 width:480px;
     margin:0;
-	padding-bottom:5px;
+    padding-bottom:5px;
 float:left;
 }
 
@@ -350,178 +350,178 @@ float:left;
 /* Div that holds the three photos in a row in the photo section  */
 
 #photo_thumb_holder {
-	width:520px;
-	height:200px;
-	margin:0;
-	float: left;
+    width:520px;
+    height:200px;
+    margin:0;
+    float: left;
 }
 
 /* Div for the individual photo in the photo section */
 
 #photo_thumb {
-	width:170px;
-	margin:0;
-	float: left;
+    width:170px;
+    margin:0;
+    float: left;
 }
 
 /* Thumbnails on People page */
 #small_thumb {
-	width:60px;
-	margin:0;
-	float: left;
+    width:60px;
+    margin:0;
+    float: left;
 }
 
 /* Horizontal Photo Thumbnail */
 #thumb {
-	width:215px;
-	margin:0;
-	padding-top:5px;
-	float: left;
+    width:215px;
+    margin:0;
+    padding-top:5px;
+    float: left;
 }
 
 /* Big Horizontal Photo Thumbnail */
 #thumb2 {
-	width:520px;
-	margin:0;
-	padding:0;
-	float: left;
+    width:520px;
+    margin:0;
+    padding:0;
+    float: left;
 }
 
 /* Vertical Photo Thumbnail */
 #thumb3 {
-	width:150px;
-	margin:0 0 0 15px;
-	padding-top:5px;
-	float:right;
+    width:150px;
+    margin:0 0 0 15px;
+    padding-top:5px;
+    float:right;
 }
 
 /* Medium Horizontal Photo Thumbnail */
 #thumb4 {
-	width:310px;
-	margin:0;
-	padding-top:5px;
-	float:left;
+    width:310px;
+    margin:0;
+    padding-top:5px;
+    float:left;
 }
 
 /* Side by side Horizontal Photo Thumbnail(1959 buildings) */
 #thumb5 {
-	width:290px;
-	margin:0;
-	padding-top:5px;
-	float:left;
+    width:290px;
+    margin:0;
+    padding-top:5px;
+    float:left;
 }
 
 /* Vertical Photo Thumbnail on Bio Pages */
 #thumb_people {
-	width:150px;
-	margin:0 15px 0 0;
-	padding-top:5px;
-	float:left;
+    width:150px;
+    margin:0 15px 0 0;
+    padding-top:5px;
+    float:left;
 }
 
 /* Caption for the photos in the photo section */
 
 #photo_caption {
-	width:150px;
-	margin:0;
-	padding:6px 0 10px 0;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:10px;
-	line-height: 13px;
-	color:#242443;
-	float: left;
+    width:150px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    line-height: 13px;
+    color:#242443;
+    float: left;
 }
 
 /* Horizontal Caption */
 
 #caption {
-	width:200px;
-	margin:0;
-	padding:6px 0 10px 0;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:.9em;
-	line-height: 13px;
-	color:#242443;
-	float: left;
+    width:200px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
 }
 
 /* Big Horizontal Caption */
 
 #caption2 {
-	width:500px;
-	margin:0;
-	padding:6px 0 10px 0;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:.9em;
-	line-height: 13px;
-	color:#242443;
-	float: left;
+    width:500px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
 }
 
 /* Vertical Caption */
 
 #caption3 {
-	width:150px;
-	margin:0;
-	padding:6px 0 10px 0;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:.9em;
-	line-height: 13px;
-	color:#242443;
-	float: left;
+    width:150px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
 }
 
 /* Medium Horizontal Caption */
 
 #caption4 {
-	width:300px;
-	margin:0;
-	padding:6px 0 10px 0;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:.9em;
-	line-height: 13px;
-	color:#242443;
-	float: left;
+    width:300px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
 }
 
 #quote {
-	width:450px;
-	margin:0;
-	padding:0;
+    width:450px;
+    margin:0;
+    padding:0;
 }
 
 #quote_top {
-	width:450px;
-	height:12px;
-	margin:0;
-	background-image:url(images/top_quote.jpg);
-	background-repeat:no-repeat;
+    width:450px;
+    height:12px;
+    margin:0;
+    background-image:url(images/top_quote.jpg);
+    background-repeat:no-repeat;
 }
 
 #quote_bottom {
-	width:450px;
-	height:12px;
-	margin:0;
-	background-image:url(images/bottom_quote.jpg);
-	background-repeat:no-repeat;
+    width:450px;
+    height:12px;
+    margin:0;
+    background-image:url(images/bottom_quote.jpg);
+    background-repeat:no-repeat;
 }
 
 #quote_middle {
-	width:426px;
-	margin:0;
-	padding:0 12px 0 12px;
-	background-image:url(images/quote_back.jpg);
-	background-repeat:repeat-y
+    width:426px;
+    margin:0;
+    padding:0 12px 0 12px;
+    background-image:url(images/quote_back.jpg);
+    background-repeat:repeat-y
 }
 
 
 /* Footer */
 
 #footer {
-	width:900px;
-	height:55px;
-	margin:0;
-	background-image:url(images/footer_back.jpg);
+    width:900px;
+    height:55px;
+    margin:0;
+    background-image:url(images/footer_back.jpg);
 
 }
 
@@ -565,8 +565,8 @@ color:#000000;
 /* Clears the floated elements above it and allow the floated elements to expand content within them */
 
 .clearit {
-	clear: both;
-	height: 0;
-	line-height: 0.0;
-	font-size: 0;
+    clear: both;
+    height: 0;
+    line-height: 0.0;
+    font-size: 0;
 }
