@@ -49,11 +49,23 @@
 
 #rotator {
 position:relative;
-    width:900px;
-	height:231px;
-    margin:0;
-    padding:0;
-	background:url(images/headers/rotator.php);
+    width: 900px;
+    height: 231px;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/headers/header1.jpg);
+}
+
+#rotator.v2 {
+    background-image: url(images/headers/header2.jpg);
+}
+
+#rotator.v3 {
+    background-image: url(images/headers/header3.jpg);
+}
+
+#rotator.v4 {
+    background-image: url(images/headers/header4.jpg);
 }
 
 /* Creates the home link in the header of each page */
@@ -78,7 +90,7 @@ position:relative;
 	padding-top:175px;
 }
 
-#main_nav 
+#main_nav
 {
 list-style-type: none;
 font-family:Arial, Helvetica, sans-serif;
@@ -109,7 +121,7 @@ color:#242443;
 }
 
 
-#main_nav a 
+#main_nav a
 {
 	display: block;
 	text-decoration: none;
@@ -119,7 +131,7 @@ color:#242443;
 {
 line-height: 1.3em;
 float: left;
-}	
+}
 
 /* End of Main navigation */
 
@@ -341,7 +353,7 @@ float:left;
 	width:520px;
 	height:200px;
 	margin:0;
-	float: left;	
+	float: left;
 }
 
 /* Div for the individual photo in the photo section */
@@ -349,14 +361,14 @@ float:left;
 #photo_thumb {
 	width:170px;
 	margin:0;
-	float: left;	
+	float: left;
 }
 
 /* Thumbnails on People page */
 #small_thumb {
 	width:60px;
 	margin:0;
-	float: left;	
+	float: left;
 }
 
 /* Horizontal Photo Thumbnail */
@@ -364,7 +376,7 @@ float:left;
 	width:215px;
 	margin:0;
 	padding-top:5px;
-	float: left;	
+	float: left;
 }
 
 /* Big Horizontal Photo Thumbnail */
@@ -372,7 +384,7 @@ float:left;
 	width:520px;
 	margin:0;
 	padding:0;
-	float: left;	
+	float: left;
 }
 
 /* Vertical Photo Thumbnail */
@@ -380,7 +392,7 @@ float:left;
 	width:150px;
 	margin:0 0 0 15px;
 	padding-top:5px;
-	float:right;	
+	float:right;
 }
 
 /* Medium Horizontal Photo Thumbnail */
@@ -388,7 +400,7 @@ float:left;
 	width:310px;
 	margin:0;
 	padding-top:5px;
-	float:left;	
+	float:left;
 }
 
 /* Side by side Horizontal Photo Thumbnail(1959 buildings) */
@@ -396,7 +408,7 @@ float:left;
 	width:290px;
 	margin:0;
 	padding-top:5px;
-	float:left;	
+	float:left;
 }
 
 /* Vertical Photo Thumbnail on Bio Pages */
@@ -404,7 +416,7 @@ float:left;
 	width:150px;
 	margin:0 15px 0 0;
 	padding-top:5px;
-	float:left;	
+	float:left;
 }
 
 /* Caption for the photos in the photo section */
@@ -417,7 +429,7 @@ float:left;
 	font-size:10px;
 	line-height: 13px;
 	color:#242443;
-	float: left;	
+	float: left;
 }
 
 /* Horizontal Caption */
@@ -430,7 +442,7 @@ float:left;
 	font-size:.9em;
 	line-height: 13px;
 	color:#242443;
-	float: left;	
+	float: left;
 }
 
 /* Big Horizontal Caption */
@@ -443,7 +455,7 @@ float:left;
 	font-size:.9em;
 	line-height: 13px;
 	color:#242443;
-	float: left;	
+	float: left;
 }
 
 /* Vertical Caption */
@@ -456,7 +468,7 @@ float:left;
 	font-size:.9em;
 	line-height: 13px;
 	color:#242443;
-	float: left;	
+	float: left;
 }
 
 /* Medium Horizontal Caption */
@@ -469,7 +481,7 @@ float:left;
 	font-size:.9em;
 	line-height: 13px;
 	color:#242443;
-	float: left;	
+	float: left;
 }
 
 #quote {
@@ -510,7 +522,7 @@ float:left;
 	height:55px;
 	margin:0;
 	background-image:url(images/footer_back.jpg);
-	
+
 }
 
 #footercontent {
