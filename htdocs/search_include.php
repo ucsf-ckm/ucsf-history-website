@@ -1,8 +1,4 @@
-<?php
-    $server_name = $_SERVER['HTTP_HOST'];
- ?>
-
-<form action="http://<?php echo $server_name ?>/search_results.html" id="cse-search-box">
+<form action="search_results.html" id="cse-search-box">
   <div>
     <input type="hidden" name="cx" value="005837314100560782062:fguk7qfxawo" />
     <input type="hidden" name="cof" value="FORID:11" />
