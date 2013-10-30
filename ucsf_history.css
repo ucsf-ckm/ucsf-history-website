@@ -348,20 +348,20 @@ color:#949b50;
 
 /* Dates list per 1990 and 2000+ pages */
 
-#dates {
+.dates {
     width:520px;
     margin:0;
     padding:0;
 }
 
-#dates_text {
+.dates_text {
 width:40px;
     margin:0;
     padding:0;
 float:left;
 }
 
-#dates_body {
+.dates_body {
 width:480px;
     margin:0;
     padding-bottom:5px;
