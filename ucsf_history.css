@@ -98,14 +98,11 @@ position:relative;
 
 /* Main Navigation */
 
-#nav {
-    width:674px;
-    height:24px;
-    margin:0;
+#homecopy #nav {
     padding:0;
 }
 
-#nav2 {
+#nav {
     width:674px;
     height:24px;
     margin:0;
