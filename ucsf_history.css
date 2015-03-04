@@ -277,7 +277,7 @@ position:relative;
 /* Main Navigation */
 
 #homecopy #nav {
-    padding: 11px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 #nav {
@@ -362,6 +362,12 @@ color:#242443;
     max-width:190px;
     margin:0;
     padding:60px 0 0 20px;
+}
+
+@media screen and (max-width:799px) {
+    #sidenav {
+        padding: 10px 0 0 10px;    
+    }
 }
 
 #sidenav_inside {
