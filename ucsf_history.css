@@ -767,6 +767,7 @@ float:left;
     max-width:900px;
     margin:0;
     background-color: #ccc;
+    text-align: center;
 }
 
 #footercontent {
@@ -774,7 +775,6 @@ float:left;
     font-size:9px;
     line-height:13px;
     padding:20px 0 0 20px;
-    display: inline-block;
 }
 
 #footercontent a:hover {
@@ -788,19 +788,15 @@ float:left;
     font-size: 9px;
     line-height: 13px;
     padding: 20px 0 0 20px;
-    text-align: center;
 }
 
 #footercontent_logo {
     padding:5px 20px 0 0;
-    float: right;
 }
 
 .footerlinks {
     color:#000000;
 }
-
-
 
 /* Clears the floated elements above it and allow the floated elements to expand content within them */
 
