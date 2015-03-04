@@ -212,7 +212,7 @@ a:active {
     font-weight: normal;
     padding: 12% 0 0 10%;
     margin: 0;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 @media screen and (max-width:799px) {
