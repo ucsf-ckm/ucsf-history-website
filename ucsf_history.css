@@ -352,9 +352,9 @@ margin-bottom: 5px;
 #sidebar {
     width: 25%;
     max-width:226px;
-    margin:0;
+    margin: 0;
     padding:0;
-    float:left;
+    float: right;
     background-color: #f9ecd0;
     height: 100%;
 }
@@ -446,10 +446,9 @@ color:#9a403d;
 #homecopy {
     width: 75%;
     max-width:675px;
-    height:300px;
     margin:0;
     background:none;
-    float:left;
+    display: inline-block;
 }
 
 #insidecopy {
