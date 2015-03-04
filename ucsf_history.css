@@ -222,6 +222,10 @@ a:active {
 }
 
 @media screen and (max-width:799px) {
+    .banner {
+        max-height: 150px;
+    }
+
     .banner h1 {
         font-size: 42px;
     }
@@ -371,6 +375,12 @@ color:#242443;
 @media screen and (max-width:799px) {
     #sidenav {
         padding: 10px 0 0 10px;    
+    }
+}
+
+@media screen and (max-width:399px) {
+    #sidenav form {
+        display: none;
     }
 }
 
