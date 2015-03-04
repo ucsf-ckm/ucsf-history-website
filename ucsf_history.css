@@ -277,7 +277,7 @@ position:relative;
 
 #nav {
     width: 100%;
-    max-width:674px;
+    max-width:675px;
     height:24px;
     margin:0;
     padding-top:175px;
@@ -289,7 +289,7 @@ list-style-type: none;
 font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
 margin: 0;
-padding-left: 92px;
+padding-left: 20px;
 text-decoration:none;
 }
 
@@ -437,7 +437,7 @@ color:#9a403d;
 
 #insidecopy {
     width: 100%;
-    max-width:674px;
+    max-width:675px;
     margin:0;
     background:none;
     float:left;
@@ -445,7 +445,7 @@ color:#9a403d;
 
 #photocopy {
     width: 100%;
-    max-width:674px;
+    max-width:675px;
     margin:0;
     background:none;
     float:left;
@@ -455,9 +455,9 @@ color:#9a403d;
 /* Text Styles */
 
 #homecopy_text {
-    max-width:502px;
+    max-width:675px;
     margin:0;
-    padding:28px 80px 0 92px;
+    padding:20px 20px 0 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:18px;
     line-height:30px;
