@@ -1,0 +1,824 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------------------*/
+
+/* element styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #e6e6e6;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+/*--------------------- */
+
+/* UCSF banners.css https://raw.githubusercontent.com/ucsf-web-services/ucsf_identity_web_banner_templates/gh-pages/banners.css */
+
+/* Layout */
+#ucsf-banner-nav, #ucsf-banner-nav div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ucsf-banner-nav {
+    background: #052049;
+    height: 32px;
+    font-family: "Helvetica Neue", "arial", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+#ucsf-banner-nav .inner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#ucsf-banner-nav div.inner div {
+    float: left;
+    padding: 8px 0 7px 30px;
+    text-align: left;
+}
+
+#ucsf-banner-nav.logo div.inner div {
+    padding: 13px 0 13px 0;
+}
+
+#ucsf-banner-nav.logo,#ucsf-banner-nav.logo .inner,#ucsf-banner-nav.logo div.inner div {
+    height: 40px;
+}
+
+#ucsf-banner-nav div.inner div.nav {
+    float: right;
+    padding-right: 16px;
+    text-align: right;
+}
+
+#ucsf-banner-nav ul, #ucsf-banner-nav li {
+    display: inline;
+    margin: 0 0 0 2em;
+    padding: 0;
+}
+
+#ucsf-banner-nav a {
+    color: #ffffff;
+    display: inline;
+    text-decoration: none;
+}
+
+#ucsf-banner-nav a:hover {
+    text-decoration: underline;
+}
+
+#ucsf-banner-nav.logo .inner {
+    height: 40px;
+    background: url("images/ucsf-logo-banner.png") 30px 50% no-repeat;
+    padding-left: 97px;
+}
+
+/**
+  * Browser-hack, targets everything but IE8 and below.
+  * @link http://browserhacks.com/#hack-1aaa2cce9e371d212109d5b1b8229ef6
+  */
+:root #ucsf-banner-nav.logo .inner {
+    background: url("images/ucsf-logo-banner.svg") 30px 50% no-repeat;
+    background-size: 45px 22px;
+}
+
+#ucsf-banner-nav-menu a {
+    padding: 0 14px;
+}
+
+/* Variations */
+#ucsf-banner-nav.arial {
+    font-family: arial,sans-serif;
+}
+
+#ucsf-banner-nav.teal {
+    background: #18a3ac;
+}
+
+#ucsf-banner-nav.green {
+    background: #90bd31;
+}
+
+#ucsf-banner-nav.blue {
+    background: #178ccb;
+}
+
+#ucsf-banner-nav.orange {
+    background: #f48024;
+}
+
+#ucsf-banner-nav.grey {
+    background: #b4b9bf;
+}
+
+#ucsf-banner-nav.purple {
+    background: #716fb2;
+}
+
+#ucsf-banner-nav.red {
+    background: #ec1848;
+}
+
+#ucsf-banner-nav.yellow {
+    background: #ffdd00;
+}
+
+#ucsf-banner-nav.white {
+    background: #ffffff;
+}
+
+#ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
+    color: #000000;
+}
+
+@media screen and (max-width:799px) {
+    #ucsf-banner-nav.logo, #ucsf-banner-nav.logo .inner, #ucsf-banner-nav.logo div.inner div {
+        height: 30px;
+    }
+
+    #ucsf-banner-nav .inner {
+        width: 100%;
+    }
+
+    #ucsf-banner-nav.logo .inner {
+        background: url("images/ucsf-logo-banner-mobile.png") 30px 50% no-repeat;
+        padding-left: 87px;
+    }
+
+    :root #ucsf-banner-nav.logo .inner {
+        background-size: 37px 18px;
+    }
+
+    #ucsf-banner-nav div.inner div {
+        height: 30px;
+        padding: 8px 0 8px 30px;
+        width: 100%;
+    }
+
+    #ucsf-banner-nav.logo div.inner div {
+        padding: 8px 0 8px 0;
+    }
+
+    #ucsf-banner-nav .logo span,#ucsf-banner-nav div.inner div.nav {
+        display: none;
+    };
+}
+
+@media screen and (max-width:399px) {
+    #ucsf-banner-nav {
+        display: none
+    }
+}
+
+/* ------------------------- */
+
+#mainbody {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 314px;
+    background: url("images/home_header_mobilized.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: #e6e6e6;    
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 74px;
+    font-weight: normal;
+    padding: 12% 0 0 10%;
+    margin: 0;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+@media screen and (max-width:799px) {
+    .banner {
+        max-height: 150px;
+    }
+
+    .banner h1 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .banner h1 {
+        font-size: 34px;
+    }
+}
+
+#homebody {
+    width: 100%;
+    max-width: 900px;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#insidebody {
+    width: 100%;
+    max-width:900px;
+    margin:0;
+    padding:0;
+}
+
+/* Creates the random header on top of each page */
+
+#rotator {
+position:relative;
+    width: 100%;
+    max-width: 900px;
+    height: 231px;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/headers/header1.jpg);
+}
+
+#rotator.v2 {
+    background-image: url(images/headers/header2.jpg);
+}
+
+#rotator.v3 {
+    background-image: url(images/headers/header3.jpg);
+}
+
+#rotator.v4 {
+    background-image: url(images/headers/header4.jpg);
+}
+
+/* Creates the home link in the header of each page */
+
+#rotator_home_link{ position: absolute; top:20px; left:0; width: 100%;
+    max-width: 600px; height: 120px; }
+
+/* Main Navigation */
+
+#homecopy #nav {
+    padding: 10px 0 0 0;
+}
+
+#nav {
+    width: 100%;
+    max-width:675px;
+    margin:0;
+    padding-top:175px;
+}
+
+#main_nav
+{
+list-style-type: none;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin: 0;
+padding-left: 20px;
+text-decoration:none;
+}
+
+#main_nav a:hover
+{
+list-style-type: none;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin: 0;
+color:#242443;
+text-decoration:none;
+}
+
+.main_nav_text
+{
+color:#8c2626;
+}
+
+.main_nav_text_visited
+{
+color:#242443;
+}
+
+
+#main_nav a
+{
+    display: block;
+    text-decoration: none;
+}
+
+#main_nav li
+{
+    display: inline-block;
+    line-height: 1.3em;
+    border-left: 1px solid black;
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+
+#main_nav li:first-child {
+    border-left: 1px hidden;
+}
+
+@media screen and (max-width:799px) {
+    #main_nav li {
+        border-left: none;    
+    }
+}
+
+/* End of Main navigation */
+
+
+/* Side Navigation */
+
+#sidebar {
+    width: 25%;
+    max-width:226px;
+    margin: 0;
+    padding:0;
+    float: right;
+    background-color: #f9ecd0;
+    height: 300px;
+}
+
+#sidenav {
+    max-width:190px;
+    margin:0;
+    padding:60px 0 0 20px;
+}
+
+@media screen and (max-width:799px) {
+    #sidenav {
+        padding: 10px 0 0 10px;    
+    }
+}
+
+@media screen and (max-width:399px) {
+    #sidenav form {
+        display: none;
+    }
+}
+
+#sidenav_inside {
+    width: 100%;
+    max-width:190px;
+    margin:0;
+    padding:0 0 0 36px;
+}
+
+#sidenavtype {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:15px;
+    color:#ca7c29;
+    text-decoration:none;
+}
+
+#sidenavtype a:hover {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:15px;
+color:#9a403d;
+text-decoration:none;
+}
+
+.sidenavtype {
+color:#ca7c29;
+}
+
+.sidenavtype_visited {
+color:#9a403d;
+}
+
+#sidenav_subnav {
+width: 100%;
+max-width:150px;
+margin:0;
+padding:6px 0 12px 0;
+}
+
+#sidenav_subnav_header {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:15px;
+color:#9a403d;
+}
+
+#sidenav_subnav_links {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+line-height:15px;
+text-decoration:none;
+}
+
+#sidenav_subnav_links a:hover {
+color:#9a403d;
+font-size:11px;
+line-height:15px;
+text-decoration:none;
+}
+
+.sidenav_subnav_type {
+color:#242443;
+}
+
+.sidenav_subnav_type_visited {
+color:#9a403d;
+}
+
+/* End of Side Navigation */
+
+
+
+#inside_header {
+    width: 100%;
+    max-width:717px;
+    margin:0;
+    padding:0;
+}
+
+#homecopy {
+    width: 75%;
+    max-width:675px;
+    margin:0;
+    background:none;
+    display: inline-block;
+}
+
+#insidecopy {
+    width: 100%;
+    max-width:675px;
+    margin:0;
+    background:none;
+    float:left;
+}
+
+#photocopy {
+    width: 100%;
+    max-width:675px;
+    margin:0;
+    background:none;
+    float:left;
+}
+
+
+/* Text Styles */
+
+#homecopy_text {
+    max-width:675px;
+    margin:0;
+    padding:20px 20px 0 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    line-height:30px;
+    color:#000000;
+}
+
+#insidecopy_text {
+    width: 100%;
+    max-width:520px;
+    margin:0;
+    padding:0 60px 0 94px;
+    font-family:Arial, Helvetica, sans-serif;
+font-size:.75em;
+line-height:19px;
+color:#000000;
+}
+
+#insidecopy_text a:hover {
+text-decoration:underline;
+}
+
+#photocopy_text {
+    width: 100%;
+    max-width:580px;
+    margin:0;
+    padding:0 0 0 94px;
+    font-family:Arial, Helvetica, sans-serif;
+font-size:.75em;
+line-height:19px;
+color:#000000;
+}
+
+.bodylink {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#8c2626;
+}
+
+#footnotes {
+font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+}
+
+.footnotes {
+font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    line-height: 13px;
+    color:#8c2626;
+}
+
+/* Purple subhead */
+
+#subhead {
+padding-bottom: 6px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.4em;
+color:#666699;
+}
+
+/* Green Subhead */
+
+#subhead2 {
+padding-bottom: 4px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#949b50;
+}
+
+/* Dates list per 1990 and 2000+ pages */
+
+.dates {
+    width: 100%;
+    max-width:520px;
+    margin:0;
+    padding:0;
+}
+
+.dates_text {
+width: 100%;
+max-width:40px;
+    margin:0;
+    padding:0;
+float:left;
+}
+
+.dates_body {
+width: 100%;
+max-width:480px;
+    margin:0;
+    padding-bottom:5px;
+float:left;
+}
+
+
+/* Div that holds the three photos in a row in the photo section  */
+
+#photo_thumb_holder {
+    width: 100%;
+    max-width:520px;
+    height:200px;
+    margin:0;
+    float: left;
+}
+
+/* Div for the individual photo in the photo section */
+
+#photo_thumb {
+    width: 100%;
+    max-width:170px;
+    margin:0;
+    float: left;
+}
+
+/* Thumbnails on People page */
+#small_thumb {
+    width: 100%;
+    max-width:60px;
+    margin:0;
+    float: left;
+}
+
+/* Horizontal Photo Thumbnail */
+#thumb {
+    width: 100%;
+    max-width:215px;
+    margin:0;
+    padding-top:5px;
+    float: left;
+}
+
+/* Big Horizontal Photo Thumbnail */
+#thumb2 {
+    width: 100%;
+    max-width:520px;
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+/* Vertical Photo Thumbnail */
+#thumb3 {
+    width: 100%;
+    max-width:150px;
+    margin:0 0 0 15px;
+    padding-top:5px;
+    float:right;
+}
+
+/* Medium Horizontal Photo Thumbnail */
+#thumb4 {
+    width: 100%;
+    max-width:310px;
+    margin:0;
+    padding-top:5px;
+    float:left;
+}
+
+/* Side by side Horizontal Photo Thumbnail(1959 buildings) */
+#thumb5 {
+    width: 100%;
+    max-width:290px;
+    margin:0;
+    padding-top:5px;
+    float:left;
+}
+
+/* Vertical Photo Thumbnail on Bio Pages */
+#thumb_people {
+    width: 100%;
+    max-width:150px;
+    margin:0 15px 0 0;
+    padding-top:5px;
+    float:left;
+}
+
+/* Caption for the photos in the photo section */
+
+#photo_caption {
+    width: 100%;
+    max-width:150px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    line-height: 13px;
+    color:#242443;
+    float: left;
+}
+
+/* Horizontal Caption */
+
+#caption {
+    width: 100%;
+    max-width:200px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
+}
+
+/* Big Horizontal Caption */
+
+#caption2 {
+    width: 100%;
+    max-width:500px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
+}
+
+/* Vertical Caption */
+
+#caption3 {
+    width: 100%;
+    max-width:150px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
+}
+
+/* Medium Horizontal Caption */
+
+#caption4 {
+    width: 100%;
+    max-width:300px;
+    margin:0;
+    padding:6px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.9em;
+    line-height: 13px;
+    color:#242443;
+    float: left;
+}
+
+#quote {
+    width: 100%;
+    max-width:450px;
+    margin:0;
+    padding:0;
+}
+
+#quote_top {
+    width: 100%;
+    max-width:450px;
+    height:12px;
+    margin:0;
+    background-image:url(images/top_quote.jpg);
+    background-repeat:no-repeat;
+}
+
+#quote_bottom {
+    width: 100%;
+    max-width:450px;
+    height:12px;
+    margin:0;
+    background-image:url(images/bottom_quote.jpg);
+    background-repeat:no-repeat;
+}
+
+#quote_middle {
+    width: 100%;
+    max-width:426px;
+    margin:0;
+    padding:0 12px 0 12px;
+    background-image:url(images/quote_back.jpg);
+    background-repeat:repeat-y
+}
+
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    max-width:900px;
+    margin:0;
+    background-color: #ccc;
+    text-align: center;
+}
+
+#footercontent {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:9px;
+    line-height:13px;
+    padding:20px 0 0 20px;
+}
+
+#footercontent a:hover {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:9px;
+    text-decoration:underline;
+}
+
+#footercontent2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 13px;
+    padding: 20px 0 0 20px;
+}
+
+#footercontent_logo {
+    padding:5px 20px 0 0;
+}
+
+.footerlinks {
+    color:#000000;
+}
+
+/* Clears the floated elements above it and allow the floated elements to expand content within them */
+
+.clearit {
+    clear: both;
+    height: 0;
+    line-height: 0.0;
+    font-size: 0;
+}
