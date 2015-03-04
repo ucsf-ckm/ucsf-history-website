@@ -329,6 +329,19 @@ color:#242443;
 {
 line-height: 1.3em;
 float: left;
+border-left: 1px solid black;
+padding: 0 5px;
+margin-bottom: 5px;
+}
+
+#main_nav li:first-child {
+    border-left: 1px hidden;
+}
+
+@media screen and (max-width:799px) {
+    #main_nav li {
+        border-left: none;    
+    }
 }
 
 /* End of Main navigation */
