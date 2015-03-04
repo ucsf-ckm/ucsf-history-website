@@ -49,7 +49,7 @@ a:active {
 
 #ucsf-banner-nav .inner {
     margin: 0 auto;
-    width: 1230px;
+    width: 100%;
 }
 
 #ucsf-banner-nav div.inner div {
@@ -150,13 +150,6 @@ a:active {
 
 #ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
     color: #000000;
-}
-
-/* Responsive */
-@media screen and (min-width:800px) and (max-width:1229px) {
-    #ucsf-banner-nav .inner {
-        width: 100%;
-    };
 }
 
 @media screen and (max-width:799px) {
