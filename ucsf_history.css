@@ -363,7 +363,8 @@ color:#242443;
     background-color: #f9ecd0;
 }
 
-#sidenav {
+#sidenav,
+#sidenav_inside {
     max-width: 190px;
     margin: 0;
     padding: 60px 0 0 20px;
@@ -380,13 +381,6 @@ color:#242443;
     #sidenav form {
         display: none;
     }
-}
-
-#sidenav_inside {
-    width: 100%;
-    max-width: 190px;
-    margin: 0;
-    padding: 60px 0 0 36px;
 }
 
 #sidenavtype {
