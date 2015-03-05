@@ -196,7 +196,6 @@ a:active {
 #mainbody {
     width: 100%;
     max-width: 900px;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -212,13 +211,16 @@ a:active {
 }
 
 .banner h1 {
-    color: white;
     font-family: 'Gilda Display', serif;
     font-size: 74px;
     font-weight: normal;
-    padding: 12% 0 0 10%;
+    padding: 10% 0 10% 6%;
     margin: 0;
     text-shadow: 1px 1px 2px #000000;
+}
+
+.banner h1 a {
+    color: white;
 }
 
 @media screen and (max-width:799px) {
@@ -249,7 +251,7 @@ a:active {
 #insidebody {
     width: 100%;
     max-width:900px;
-    margin:0;
+    margin:0 auto 0 auto;
     padding:0;
 }
 
@@ -284,15 +286,11 @@ position:relative;
 
 /* Main Navigation */
 
-#homecopy #nav {
-    padding: 10px 0 0 0;
-}
-
 #nav {
     width: 100%;
     max-width:675px;
     margin:0;
-    padding-top:175px;
+    padding-top: 10px;
 }
 
 #main_nav
