@@ -808,12 +808,3 @@ float:left;
 .footerlinks {
     color:#000000;
 }
-
-/* Clears the floated elements above it and allow the floated elements to expand content within them */
-
-.clearit {
-    clear: both;
-    height: 0;
-    line-height: 0.0;
-    font-size: 0;
-}
