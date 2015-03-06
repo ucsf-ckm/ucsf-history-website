@@ -475,22 +475,14 @@ color:#9a403d;
     display: inline-block;
 }
 
-#insidecopy {
+#insidecopy,
+#photocopy {
     width: 100%;
     max-width: 675px;
     margin: 0;
     background-color: white;
     float: left;
 }
-
-#photocopy {
-    width: 100%;
-    max-width:675px;
-    margin:0;
-    background:none;
-    float:left;
-}
-
 
 /* Text Styles */
 
