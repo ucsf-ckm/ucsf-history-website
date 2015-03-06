@@ -458,8 +458,6 @@ color:#9a403d;
 
 /* End of Side Navigation */
 
-
-
 #inside_header {
     width: 100%;
     max-width:717px;
@@ -477,11 +475,11 @@ color:#9a403d;
 
 #insidecopy,
 #photocopy {
-    width: 100%;
+    width: 75%;
     max-width: 675px;
     margin: 0;
     background-color: white;
-    float: left;
+    display: inline-block;
 }
 
 /* Text Styles */
