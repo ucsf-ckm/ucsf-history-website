@@ -789,3 +789,9 @@ color:#949b50;
 .footerlinks {
     color:#000000;
 }
+
+@media screen and (max-width:799px) {
+    .show-for-large-only {
+        display: none;
+    }
+}
