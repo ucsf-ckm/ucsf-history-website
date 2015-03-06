@@ -696,15 +696,8 @@ color:#949b50;
 /* Big Horizontal Caption */
 
 #caption2 {
-    width: 100%;
-    max-width:500px;
-    margin:0;
     padding:6px 0 10px 0;
-    font-family:Arial, Helvetica, sans-serif;
     font-size:.9em;
-    line-height: 13px;
-    color:#242443;
-    float: left;
 }
 
 /* Vertical Caption */
