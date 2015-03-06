@@ -5,6 +5,10 @@
 
 /* element styles */
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     background-color: #e6e6e6;
@@ -25,38 +29,242 @@ a:active {
 
 /*--------------------- */
 
+/* UCSF banners.css https://raw.githubusercontent.com/ucsf-web-services/ucsf_identity_web_banner_templates/gh-pages/banners.css */
+
+/* Layout */
+#ucsf-banner-nav, #ucsf-banner-nav div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ucsf-banner-nav {
+    background: #052049;
+    height: 32px;
+    font-family: "Helvetica Neue", "arial", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+#ucsf-banner-nav .inner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#ucsf-banner-nav div.inner div {
+    float: left;
+    padding: 8px 0 7px 30px;
+    text-align: left;
+}
+
+#ucsf-banner-nav.logo div.inner div {
+    padding: 13px 0 13px 0;
+}
+
+#ucsf-banner-nav.logo,#ucsf-banner-nav.logo .inner,#ucsf-banner-nav.logo div.inner div {
+    height: 40px;
+}
+
+#ucsf-banner-nav div.inner div.nav {
+    float: right;
+    padding-right: 16px;
+    text-align: right;
+}
+
+#ucsf-banner-nav ul, #ucsf-banner-nav li {
+    display: inline;
+    margin: 0 0 0 2em;
+    padding: 0;
+}
+
+#ucsf-banner-nav a {
+    color: #ffffff;
+    display: inline;
+    text-decoration: none;
+}
+
+#ucsf-banner-nav a:hover {
+    text-decoration: underline;
+}
+
+#ucsf-banner-nav.logo .inner {
+    height: 40px;
+    background: url("images/ucsf-logo-banner.png") 30px 50% no-repeat;
+    padding-left: 97px;
+}
+
+/**
+  * Browser-hack, targets everything but IE8 and below.
+  * @link http://browserhacks.com/#hack-1aaa2cce9e371d212109d5b1b8229ef6
+  */
+:root #ucsf-banner-nav.logo .inner {
+    background: url("images/ucsf-logo-banner.svg") 30px 50% no-repeat;
+    background-size: 45px 22px;
+}
+
+#ucsf-banner-nav-menu a {
+    padding: 0 14px;
+}
+
+/* Variations */
+#ucsf-banner-nav.arial {
+    font-family: arial,sans-serif;
+}
+
+#ucsf-banner-nav.teal {
+    background: #18a3ac;
+}
+
+#ucsf-banner-nav.green {
+    background: #90bd31;
+}
+
+#ucsf-banner-nav.blue {
+    background: #178ccb;
+}
+
+#ucsf-banner-nav.orange {
+    background: #f48024;
+}
+
+#ucsf-banner-nav.grey {
+    background: #b4b9bf;
+}
+
+#ucsf-banner-nav.purple {
+    background: #716fb2;
+}
+
+#ucsf-banner-nav.red {
+    background: #ec1848;
+}
+
+#ucsf-banner-nav.yellow {
+    background: #ffdd00;
+}
+
+#ucsf-banner-nav.white {
+    background: #ffffff;
+}
+
+#ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
+    color: #000000;
+}
+
+@media screen and (max-width:799px) {
+    #ucsf-banner-nav.logo, #ucsf-banner-nav.logo .inner, #ucsf-banner-nav.logo div.inner div {
+        height: 30px;
+    }
+
+    #ucsf-banner-nav .inner {
+        width: 100%;
+    }
+
+    #ucsf-banner-nav.logo .inner {
+        background: url("images/ucsf-logo-banner-mobile.png") 30px 50% no-repeat;
+        padding-left: 87px;
+    }
+
+    :root #ucsf-banner-nav.logo .inner {
+        background-size: 37px 18px;
+    }
+
+    #ucsf-banner-nav div.inner div {
+        height: 30px;
+        padding: 8px 0 8px 30px;
+        width: 100%;
+    }
+
+    #ucsf-banner-nav.logo div.inner div {
+        padding: 8px 0 8px 0;
+    }
+
+    #ucsf-banner-nav .logo span,#ucsf-banner-nav div.inner div.nav {
+        display: none;
+    };
+}
+
+@media screen and (max-width:399px) {
+    #ucsf-banner-nav {
+        display: none
+    }
+}
+
+/* ------------------------- */
+
 #mainbody {
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    background-image:url(images/back_home.jpg);
-    background-repeat:repeat-y;
 }
 
-#topbar {
-    width: 900px;
-    height: 30px;
-    background-color:#000000;
+.banner {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 314px;
+    background: url("images/home_header.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: #e6e6e6;    
 }
 
-#gradient {
-    width:900px;
-    height:11px;
-    margin:0;
+.banner h1 {
+    font-family: 'Gilda Display', serif;
+    font-size: 74px;
+    font-weight: normal;
+    padding: 10% 0 10% 6%;
+    margin: 0;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.banner h1 a {
+    color: white;
+}
+
+@media screen and (max-width:799px) {
+    .banner {
+        max-height: 150px;
+    }
+
+    .banner h1 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .banner h1 {
+        font-size: 34px;
+    }
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #052049;
+    line-height: 32px;
+}
+
+.title-primary {
+    font-size: 44px;
+    color: #e2a727;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 #homebody {
-    width:900px;
-    height:300px;
-    margin:0;
-    padding:0;
-    background-image:url(images/back_home.jpg);
-    background-repeat:repeat-y;
+    width: 100%;
+    max-width: 900px;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
 #insidebody {
-    width:900px;
-    margin:0;
+    width: 100%;
+    max-width:900px;
+    margin:0 auto 0 auto;
     padding:0;
 }
 
@@ -64,7 +272,8 @@ a:active {
 
 #rotator {
 position:relative;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     height: 231px;
     margin: 0;
     padding: 0;
@@ -85,21 +294,16 @@ position:relative;
 
 /* Creates the home link in the header of each page */
 
-#rotator_home_link{ position: absolute; top:20px; left:0; width: 600px; height: 120px; }
-
-
+#rotator_home_link{ position: absolute; top:20px; left:0; width: 100%;
+    max-width: 600px; height: 120px; }
 
 /* Main Navigation */
 
-#homecopy #nav {
-    padding:0;
-}
-
 #nav {
-    width:674px;
-    height:24px;
+    width: 100%;
+    max-width:675px;
     margin:0;
-    padding-top:175px;
+    padding-top: 10px;
 }
 
 #main_nav
@@ -108,7 +312,7 @@ list-style-type: none;
 font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
 margin: 0;
-padding-left: 92px;
+padding-left: 20px;
 text-decoration:none;
 }
 
@@ -141,8 +345,21 @@ color:#242443;
 
 #main_nav li
 {
-line-height: 1.3em;
-float: left;
+    display: inline-block;
+    line-height: 1.3em;
+    border-left: 1px solid black;
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+
+#main_nav li:first-child {
+    border-left: 1px hidden;
+}
+
+@media screen and (max-width:799px) {
+    #main_nav li {
+        border-left: none;    
+    }
 }
 
 /* End of Main navigation */
@@ -151,22 +368,32 @@ float: left;
 /* Side Navigation */
 
 #sidebar {
-    width:226px;
-    margin:0;
+    width: 25%;
+    max-width:226px;
+    margin: 0;
     padding:0;
-    float:left;
+    float: right;
+    background-color: #f9ecd0;
 }
 
-#sidenav {
-    width:190px;
-    margin:0;
-    padding:60px 0 0 36px;
-}
-
+#sidenav,
 #sidenav_inside {
-    width:190px;
-    margin:0;
-    padding:0 0 0 36px;
+    max-width: 190px;
+    margin: 0;
+    padding: 60px 0 0 20px;
+    min-height: 240px;
+}
+
+@media screen and (max-width:799px) {
+    #sidenav {
+        padding: 10px 0 0 10px;    
+    }
+}
+
+@media screen and (max-width:399px) {
+    #sidenav form {
+        display: none;
+    }
 }
 
 #sidenavtype {
@@ -194,7 +421,8 @@ color:#9a403d;
 }
 
 #sidenav_subnav {
-width:150px;
+width: 100%;
+max-width:150px;
 margin:0;
 padding:6px 0 12px 0;
 }
@@ -230,57 +458,50 @@ color:#9a403d;
 
 /* End of Side Navigation */
 
-
-
 #inside_header {
-    width:717px;
+    width: 100%;
+    max-width:717px;
     margin:0;
     padding:0;
 }
 
 #homecopy {
-    width:674px;
-    height:300px;
+    width: 75%;
+    max-width:675px;
     margin:0;
     background:none;
-    float:left;
+    display: inline-block;
 }
 
-#insidecopy {
-    width:674px;
-    margin:0;
-    background:none;
-    float:left;
-}
-
+#insidecopy,
 #photocopy {
-    width:674px;
-    margin:0;
-    background:none;
-    float:left;
+    width: 75%;
+    max-width: 675px;
+    margin: 0;
+    background-color: white;
+    display: inline-block;
 }
-
 
 /* Text Styles */
 
 #homecopy_text {
-    width:502px;
+    max-width:675px;
     margin:0;
-    padding:28px 80px 0 92px;
+    padding:20px 20px 0 20px;
     font-family:Arial, Helvetica, sans-serif;
-font-size:18px;
-line-height:30px;
-color:#000000;
+    font-size:18px;
+    line-height:30px;
+    color:#000000;
 }
 
 #insidecopy_text {
-    width:520px;
+    max-width:520px;
     margin:0;
     padding:0 60px 0 94px;
     font-family:Arial, Helvetica, sans-serif;
-font-size:.75em;
-line-height:19px;
-color:#000000;
+    font-size:.75em;
+    line-height:19px;
+    color:#000000;
 }
 
 #insidecopy_text a:hover {
@@ -288,13 +509,13 @@ text-decoration:underline;
 }
 
 #photocopy_text {
-    width:580px;
+    max-width:580px;
     margin:0;
     padding:0 0 0 94px;
     font-family:Arial, Helvetica, sans-serif;
-font-size:.75em;
-line-height:19px;
-color:#000000;
+    font-size:.75em;
+    line-height:19px;
+    color:#000000;
 }
 
 .bodylink {
@@ -339,30 +560,33 @@ color:#949b50;
 /* Dates list per 1990 and 2000+ pages */
 
 .dates {
-    width:520px;
+    width: 100%;
+    max-width:520px;
     margin:0;
     padding:0;
 }
 
 .dates_text {
-width:40px;
+    width: 100%;
+    max-width:40px;
     margin:0;
     padding:0;
-float:left;
 }
 
 .dates_body {
-width:480px;
+    width: 100%;
+    max-width:480px;
     margin:0;
     padding-bottom:5px;
-float:left;
+    float:left;
 }
 
 
 /* Div that holds the three photos in a row in the photo section  */
 
 #photo_thumb_holder {
-    width:520px;
+    width: 100%;
+    max-width:520px;
     height:200px;
     margin:0;
     float: left;
@@ -371,37 +595,33 @@ float:left;
 /* Div for the individual photo in the photo section */
 
 #photo_thumb {
-    width:170px;
+    width: 100%;
+    max-width:170px;
     margin:0;
     float: left;
 }
 
 /* Thumbnails on People page */
 #small_thumb {
-    width:60px;
+    width: 100%;
+    max-width:60px;
     margin:0;
     float: left;
 }
 
 /* Horizontal Photo Thumbnail */
 #thumb {
-    width:215px;
+    width: 100%;
+    max-width:215px;
     margin:0;
     padding-top:5px;
     float: left;
 }
 
-/* Big Horizontal Photo Thumbnail */
-#thumb2 {
-    width:520px;
-    margin:0;
-    padding:0;
-    float: left;
-}
-
 /* Vertical Photo Thumbnail */
 #thumb3 {
-    width:150px;
+    width: 100%;
+    max-width:150px;
     margin:0 0 0 15px;
     padding-top:5px;
     float:right;
@@ -409,7 +629,8 @@ float:left;
 
 /* Medium Horizontal Photo Thumbnail */
 #thumb4 {
-    width:310px;
+    width: 100%;
+    max-width:310px;
     margin:0;
     padding-top:5px;
     float:left;
@@ -417,7 +638,8 @@ float:left;
 
 /* Side by side Horizontal Photo Thumbnail(1959 buildings) */
 #thumb5 {
-    width:290px;
+    width: 100%;
+    max-width:290px;
     margin:0;
     padding-top:5px;
     float:left;
@@ -425,7 +647,8 @@ float:left;
 
 /* Vertical Photo Thumbnail on Bio Pages */
 #thumb_people {
-    width:150px;
+    width: 100%;
+    max-width:150px;
     margin:0 15px 0 0;
     padding-top:5px;
     float:left;
@@ -434,7 +657,8 @@ float:left;
 /* Caption for the photos in the photo section */
 
 #photo_caption {
-    width:150px;
+    width: 100%;
+    max-width:150px;
     margin:0;
     padding:6px 0 10px 0;
     font-family:Arial, Helvetica, sans-serif;
@@ -447,7 +671,8 @@ float:left;
 /* Horizontal Caption */
 
 #caption {
-    width:200px;
+    width: 100%;
+    max-width:200px;
     margin:0;
     padding:6px 0 10px 0;
     font-family:Arial, Helvetica, sans-serif;
@@ -460,20 +685,16 @@ float:left;
 /* Big Horizontal Caption */
 
 #caption2 {
-    width:500px;
-    margin:0;
-    padding:6px 0 10px 0;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:.9em;
+    padding: 6px 0 10px 0;
+    font-size: .9em;
     line-height: 13px;
-    color:#242443;
-    float: left;
 }
 
 /* Vertical Caption */
 
 #caption3 {
-    width:150px;
+    width: 100%;
+    max-width:150px;
     margin:0;
     padding:6px 0 10px 0;
     font-family:Arial, Helvetica, sans-serif;
@@ -486,7 +707,8 @@ float:left;
 /* Medium Horizontal Caption */
 
 #caption4 {
-    width:300px;
+    width: 100%;
+    max-width:300px;
     margin:0;
     padding:6px 0 10px 0;
     font-family:Arial, Helvetica, sans-serif;
@@ -497,88 +719,54 @@ float:left;
 }
 
 #quote {
-    width:450px;
-    margin:0;
-    padding:0;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0;
+    padding: 10px;
 }
-
-#quote_top {
-    width:450px;
-    height:12px;
-    margin:0;
-    background-image:url(images/top_quote.jpg);
-    background-repeat:no-repeat;
-}
-
-#quote_bottom {
-    width:450px;
-    height:12px;
-    margin:0;
-    background-image:url(images/bottom_quote.jpg);
-    background-repeat:no-repeat;
-}
-
-#quote_middle {
-    width:426px;
-    margin:0;
-    padding:0 12px 0 12px;
-    background-image:url(images/quote_back.jpg);
-    background-repeat:repeat-y
-}
-
 
 /* Footer */
 
 #footer {
-    width:900px;
-    height:55px;
+    width: 100%;
+    max-width:900px;
     margin:0;
-    background-image:url(images/footer_back.jpg);
-
+    background-color: #ccc;
+    text-align: center;
 }
 
 #footercontent {
-width:250px;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:9px;
-line-height:13px;
-padding:20px 0 0 38px;
-float:left;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:9px;
+    line-height:13px;
+    padding:10px 0 0 0;
 }
 
 #footercontent a:hover {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:9px;
-text-decoration:underline;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:9px;
+    text-decoration:underline;
 }
 
-
 #footercontent2 {
-width:300px;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:9px;
-line-height:13px;
-padding:20px 0 0 100px;
-float:left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 13px;
+    padding: 0 0 20px 0;
 }
 
 #footercontent_logo {
-width:190px;
-padding:5px 0 0 20px;
-float:left;
+    padding:0;
 }
 
 .footerlinks {
-color:#000000;
+    color:#000000;
 }
 
-
-
-/* Clears the floated elements above it and allow the floated elements to expand content within them */
-
-.clearit {
-    clear: both;
-    height: 0;
-    line-height: 0.0;
-    font-size: 0;
+@media screen and (max-width:799px) {
+    .show-for-large-only {
+        display: none;
+    }
 }
