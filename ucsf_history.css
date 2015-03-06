@@ -719,39 +719,13 @@ color:#949b50;
 }
 
 #quote {
+    border: 1px solid;
+    border-radius: 10px;
     width: 100%;
-    max-width:450px;
-    margin:0;
-    padding:0;
+    max-width: 450px;
+    margin: 0;
+    padding: 10px;
 }
-
-#quote_top {
-    width: 100%;
-    max-width:450px;
-    height:12px;
-    margin:0;
-    background-image:url(images/top_quote.jpg);
-    background-repeat:no-repeat;
-}
-
-#quote_bottom {
-    width: 100%;
-    max-width:450px;
-    height:12px;
-    margin:0;
-    background-image:url(images/bottom_quote.jpg);
-    background-repeat:no-repeat;
-}
-
-#quote_middle {
-    width: 100%;
-    max-width:426px;
-    margin:0;
-    padding:0 12px 0 12px;
-    background-image:url(images/quote_back.jpg);
-    background-repeat:repeat-y
-}
-
 
 /* Footer */
 
