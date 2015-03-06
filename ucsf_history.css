@@ -685,8 +685,9 @@ color:#949b50;
 /* Big Horizontal Caption */
 
 #caption2 {
-    padding:6px 0 10px 0;
-    font-size:.9em;
+    padding: 6px 0 10px 0;
+    font-size: .9em;
+    line-height: 13px;
 }
 
 /* Vertical Caption */
