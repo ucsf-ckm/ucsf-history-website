@@ -569,19 +569,18 @@ color:#949b50;
 }
 
 .dates_text {
-width: 100%;
-max-width:40px;
+    width: 100%;
+    max-width:40px;
     margin:0;
     padding:0;
-float:left;
 }
 
 .dates_body {
-width: 100%;
-max-width:480px;
+    width: 100%;
+    max-width:480px;
     margin:0;
     padding-bottom:5px;
-float:left;
+    float:left;
 }
 
 
