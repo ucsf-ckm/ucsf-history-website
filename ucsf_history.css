@@ -240,7 +240,7 @@ a:active {
 }
 
 .title {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 24px;
     color: #052049;
     line-height: 32px;
@@ -371,7 +371,7 @@ color:#242443;
     width: 25%;
     max-width:226px;
     margin: 0;
-    padding:0;
+    padding:0 0 20px 0;
     float: right;
     background-color: #f9ecd0;
 }
@@ -381,7 +381,7 @@ color:#242443;
     max-width: 190px;
     margin: 0;
     padding: 60px 0 0 20px;
-    min-height: 240px;
+    min-height: 220px;
 }
 
 @media screen and (max-width:799px) {
