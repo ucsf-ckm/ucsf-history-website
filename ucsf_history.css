@@ -518,6 +518,12 @@ text-decoration:underline;
     color:#000000;
 }
 
+#photocopy_text img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
 .bodylink {
 font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
