@@ -617,10 +617,17 @@ color:#949b50;
 
 .small_thumb {
     width: 100%;
-    max-width:60px;
+    max-width:100px;
     margin:0;
     float: left;
     padding-right: 0.5rem;
+}
+
+#photocopy_text .small_thumb img {
+    width: 200px;
+    height: 120px;
+    border: 1px solid #000;
+    object-fit: cover;
 }
 
 /* Horizontal Photo Thumbnail */
@@ -785,6 +792,8 @@ color:#949b50;
     }
 }
 
-.clear {
+.entry-150w {
     clear: both;
+    min-height: 128px;
+    margin-bottom: 20px;
 }
