@@ -784,3 +784,7 @@ color:#949b50;
         display: none;
     }
 }
+
+.clear {
+    clear: both;
+}
