@@ -615,6 +615,14 @@ color:#949b50;
     float: left;
 }
 
+.small_thumb {
+    width: 100%;
+    max-width:60px;
+    margin:0;
+    float: left;
+    padding-right: 0.5rem;
+}
+
 /* Horizontal Photo Thumbnail */
 #thumb {
     width: 100%;
