@@ -511,7 +511,7 @@ text-decoration:underline;
 #photocopy_text {
     max-width:580px;
     margin:0;
-    padding:0 0 0 94px;
+    padding:0 40px 0 94px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:.75em;
     line-height:19px;
