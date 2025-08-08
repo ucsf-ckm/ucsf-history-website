@@ -217,6 +217,7 @@ a:active {
     padding: 10% 0 10% 6%;
     margin: 0;
     text-shadow: 1px 1px 2px #000000;
+    background-color: rgb(0,0,0, 0.1);
 }
 
 .banner h1 a {
