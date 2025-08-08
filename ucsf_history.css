@@ -322,7 +322,7 @@ color:#8c2626;
 
 .main_nav_text_visited
 {
-color:#242443;
+    color:#242443;
 }
 
 
@@ -441,7 +441,7 @@ color:#242443;
 }
 
 .sidenav_subnav_type_visited {
-color:#9a403d;
+    font-weight:bolder;
 }
 
 /* End of Side Navigation */
