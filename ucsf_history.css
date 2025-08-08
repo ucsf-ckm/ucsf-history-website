@@ -401,10 +401,11 @@ color:#9a403d;
 }
 
 .sidenavtype {
-color:#052049;
+    color:#052049;
 }
 
 .sidenavtype_visited {
+    color:#052049;
     font-weight: bolder;
 }
 
