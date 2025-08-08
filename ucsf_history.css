@@ -14,19 +14,6 @@ body {
     background-color: #e6e6e6;
 }
 
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-}
-a:active {
-    text-decoration: none;
-}
-
 /*--------------------- */
 
 /* UCSF banners.css https://raw.githubusercontent.com/ucsf-web-services/ucsf_identity_web_banner_templates/gh-pages/banners.css */
@@ -505,10 +492,6 @@ color:#9a403d;
     color:#000000;
 }
 
-#insidecopy_text a:hover {
-text-decoration:underline;
-}
-
 #photocopy_text {
     max-width:580px;
     margin:0;
@@ -769,7 +752,6 @@ color:#949b50;
 #footercontent a:hover {
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size:9px;
-    text-decoration:underline;
 }
 
 #footercontent2 {
