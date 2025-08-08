@@ -362,7 +362,7 @@ color:#242443;
     margin: 0;
     padding:0 0 20px 0;
     float: right;
-    background-color: #f9ecd0;
+    background-color: #e9e9ed;
 }
 
 #sidenav,
@@ -389,7 +389,7 @@ color:#242443;
     font-family:Arial, Helvetica, sans-serif;
     font-size:12px;
     line-height:15px;
-    color:#ca7c29;
+    color:#052049;
     text-decoration:none;
 }
 
@@ -398,15 +398,14 @@ font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
 line-height:15px;
 color:#9a403d;
-text-decoration:none;
 }
 
 .sidenavtype {
-color:#ca7c29;
+color:#052049;
 }
 
 .sidenavtype_visited {
-color:#9a403d;
+    font-weight: bolder;
 }
 
 #sidenav_subnav {
