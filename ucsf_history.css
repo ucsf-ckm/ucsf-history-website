@@ -731,8 +731,8 @@ color:#666699;
 #footercontent {
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size:9px;
-    line-height:13px;
-    padding:10px 0 0 0;
+    line-height:24px;
+    padding:10px 0 10px 0;
 }
 
 #footercontent a:hover {
