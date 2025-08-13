@@ -397,7 +397,7 @@ color:#8c2626;
 font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
 line-height:15px;
-color:#9a403d;
+color:#052049;
 }
 
 .sidenavtype {
@@ -415,7 +415,7 @@ padding:6px 0 12px 0;
 font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
 line-height:15px;
-color:#9a403d;
+color:#052049;
 }
 
 #sidenav_subnav_links {
@@ -426,7 +426,7 @@ text-decoration:none;
 }
 
 #sidenav_subnav_links a:hover {
-color:#9a403d;
+color:#052049;
 font-size:11px;
 line-height:15px;
 text-decoration:none;
