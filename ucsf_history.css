@@ -11,7 +11,13 @@ html, body {
 
 body {
     margin: 0;
-    background-color: #b4b9bf;
+    background-color: #9ba6b6;
+}
+
+h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    color: #052049;
 }
 
 /*--------------------- */
@@ -115,10 +121,6 @@ body {
     background: #f48024;
 }
 
-#ucsf-banner-nav.grey {
-    background: #b4b9bf;
-}
-
 #ucsf-banner-nav.purple {
     background: #716fb2;
 }
@@ -198,7 +200,7 @@ body {
 }
 
 .banner h1 {
-    font-family: 'Gilda Display', serif;
+    font-family: 'Crimson Text', serif;
     font-size: 74px;
     font-weight: normal;
     padding: 10% 0 10% 6%;
@@ -229,16 +231,15 @@ body {
 }
 
 .title {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
     color: #052049;
     line-height: 32px;
+    font-weight: 400;
 }
 
 .title-primary {
-    font-size: 44px;
-    color: #052049;
-    text-shadow: 1px 1px 2px #000000;
+    font-size: 36px;
 }
 
 #homebody {
@@ -248,13 +249,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    display: flex;
 }
 
 #insidebody {
     width: 100%;
-    max-width:900px;
-    margin:0 auto 0 auto;
-    padding:0;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
 }
 
 /* Creates the random header on top of each page */
@@ -298,8 +301,8 @@ position:relative;
 #main_nav
 {
 list-style-type: none;
-font-family:Arial, Helvetica, sans-serif;
-font-size:12px;
+font-family:Roboto, Arial, Helvetica, sans-serif;
+font-size:14px;
 margin: 0;
 padding-left: 20px;
 text-decoration:none;
@@ -307,24 +310,13 @@ text-decoration:none;
 
 #main_nav a:hover
 {
-list-style-type: none;
-font-family:Arial, Helvetica, sans-serif;
-font-size:12px;
-margin: 0;
-color:#242443;
-text-decoration:none;
+text-decoration:underline;
 }
 
 .main_nav_text
 {
-color:#8c2626;
+color:#506380;
 }
-
-.main_nav_text_visited
-{
-    color:#242443;
-}
-
 
 #main_nav a
 {
@@ -362,7 +354,7 @@ color:#8c2626;
     margin: 0;
     padding:0 0 20px 0;
     float: right;
-    background-color: #9BA6B6;
+    background-color: #fff;
 }
 
 #sidenav,
@@ -386,9 +378,9 @@ color:#8c2626;
 }
 
 #sidenavtype {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:12px;
-    line-height:24px;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:25px;
     color:#052049;
     text-decoration:none;
     margin-bottom:5px;
@@ -406,29 +398,24 @@ padding:6px 0 12px 0;
 }
 
 #sidenav_subnav_header {
-font-family:Arial, Helvetica, sans-serif;
-font-size:12px;
-line-height:15px;
+font-family:Roboto, Arial, Helvetica, sans-serif;
+font-size:16px;
 color:#052049;
 padding-bottom:10px;
 }
 
-#sidenav_subnav_links {
-font-family:Arial, Helvetica, sans-serif;
-font-size:11px;
-line-height:15px;
+#sidenav_subnav_links a {
+font-family:Roboto, Arial, Helvetica, sans-serif;
+font-size:16px;
 text-decoration:none;
 }
 
 #sidenav_subnav_links a:hover {
-color:#052049;
-font-size:11px;
-line-height:15px;
-text-decoration:none;
+text-decoration:underline;
 }
 
 .sidenav_subnav_type {
-color:#242443;
+    color:#052049;
 }
 
 .sidenav_subnav_type_visited {
@@ -467,27 +454,27 @@ color:#242443;
     max-width:675px;
     margin:0;
     padding:20px 20px 0 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:18px;
     line-height:30px;
     color:#000000;
 }
 
 #insidecopy_text {
-    max-width:520px;
-    margin:0;
-    padding:0 60px 0 94px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:.75em;
-    line-height:19px;
-    color:#000000;
+    max-width: 520px;
+    margin: 0;
+    padding: 0 60px 0 94px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #052049;
 }
 
 #photocopy_text {
     max-width:580px;
     margin:0;
     padding:0 40px 0 94px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:.75em;
     line-height:19px;
     color:#000000;
@@ -500,32 +487,30 @@ color:#242443;
 }
 
 .bodylink {
-font-family:Arial, Helvetica, sans-serif;
-font-size:12px;
-color:#8c2626;
+color:#0071ad;
 }
 
 #footnotes {
-font-family:Arial, Helvetica, sans-serif;
+font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
     line-height: 13px;
     color:#242443;
 }
 
 .footnotes {
-font-family:Arial, Helvetica, sans-serif;
+font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:10px;
     line-height: 13px;
     color:#8c2626;
 }
 
-/* Purple subhead */
+/* Subhead */
 
 #subhead {
-padding-bottom: 6px;
-font-family:Arial, Helvetica, sans-serif;
-font-size:1.4em;
-color:#666699;
+padding: 12px 0;
+font-family: 'Crimson Text', serif;
+font-size: 28px;
+color: #052049;
 }
 
 /* Dates list per 1990 and 2000+ pages */
@@ -647,7 +632,7 @@ color:#666699;
     max-width:150px;
     margin:0;
     padding:6px 0 10px 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:10px;
     line-height: 13px;
     color:#242443;
@@ -661,7 +646,7 @@ color:#666699;
     max-width:200px;
     margin:0;
     padding:6px 0 10px 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
     line-height: 13px;
     color:#242443;
@@ -683,7 +668,7 @@ color:#666699;
     max-width:150px;
     margin:0;
     padding:6px 0 10px 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
     line-height: 13px;
     color:#242443;
@@ -697,7 +682,7 @@ color:#666699;
     max-width:300px;
     margin:0;
     padding:6px 0 10px 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
     line-height: 13px;
     color:#242443;
@@ -714,40 +699,33 @@ color:#666699;
 }
 
 /* Footer */
-
-#footer {
-    width: 100%;
-    max-width:900px;
-    margin:0;
-    background-color: #ccc;
-    text-align: center;
+div#footer {
+    background-color: #052049;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 44px;
+    clear: both;
 }
 
-#footercontent {
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size:9px;
-    line-height:24px;
-    padding:10px 0 10px 0;
+div#footercontent {
+    float: right;
+    margin: 14px 20px;
 }
 
-#footercontent a:hover {
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size:9px;
+div#footercontent a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
-#footercontent2 {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 9px;
-    line-height: 13px;
-    padding: 0 0 20px 0;
+div#footerlogo {
+    width: 200px;
+    float: left;
+    margin: 6px 20px;
 }
 
-#footercontent_logo {
-    padding:0;
-}
-
-.footerlinks {
-    color:#000000;
+div#footerlogo img {
+    height: 32px;
 }
 
 @media screen and (max-width:799px) {
