@@ -689,13 +689,14 @@ color: #052049;
     float: left;
 }
 
-#quote {
-    border: 1px solid;
-    border-radius: 10px;
+.quote {
+    border: #9BA6B6 2px solid;
+    border-radius: 0;
     width: 100%;
     max-width: 450px;
     margin: 0;
-    padding: 10px;
+    padding: 15px;
+    font-style: italic;
 }
 
 /* Footer */
