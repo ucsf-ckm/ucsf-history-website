@@ -234,7 +234,7 @@ h4 {
     font-family: 'Crimson Text', serif;
     font-size: 28px;
     color: #052049;
-    line-height: 32px;
+    line-height: 30px;
     font-weight: 400;
 }
 
@@ -510,6 +510,7 @@ h3 {
     font-size: 28px;
     font-weight: normal;
     color: #052049;
+    line-height: 30px;
 }
 
 /* Dates list per 1990 and 2000+ pages */
