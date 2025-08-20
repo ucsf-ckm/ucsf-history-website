@@ -627,64 +627,64 @@ color: #052049;
 
 /* Caption for the photos in the photo section */
 
-#photo_caption {
+.photo_caption {
     width: 100%;
     max-width:150px;
     margin:0;
     padding:6px 0 10px 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:10px;
-    line-height: 13px;
+    line-height: 18px;
     color:#242443;
     float: left;
 }
 
 /* Horizontal Caption */
 
-#caption {
+.caption {
     width: 100%;
     max-width:200px;
     margin:0;
     padding:6px 0 10px 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
-    line-height: 13px;
+    line-height: 18px;
     color:#242443;
     float: left;
 }
 
 /* Big Horizontal Caption */
 
-#caption2 {
+.caption2 {
     padding: 6px 0 10px 0;
     font-size: .9em;
-    line-height: 13px;
+    line-height: 18px;
 }
 
 /* Vertical Caption */
 
-#caption3 {
+.caption3 {
     width: 100%;
     max-width:150px;
     margin:0;
     padding:6px 0 10px 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
-    line-height: 13px;
+    line-height: 18px;
     color:#242443;
     float: left;
 }
 
 /* Medium Horizontal Caption */
 
-#caption4 {
+.caption4 {
     width: 100%;
     max-width:300px;
     margin:0;
     padding:6px 0 10px 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:.9em;
-    line-height: 13px;
+    line-height: 18px;
     color:#242443;
     float: left;
 }
