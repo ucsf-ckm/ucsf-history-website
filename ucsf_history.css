@@ -498,19 +498,18 @@ font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .footnotes {
-font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:10px;
     line-height: 13px;
     color:#8c2626;
 }
 
-/* Subhead */
-
-#subhead {
-padding: 12px 0;
-font-family: 'Crimson Text', serif;
-font-size: 28px;
-color: #052049;
+h3 {
+    padding: 12px 0;
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #052049;
 }
 
 /* Dates list per 1990 and 2000+ pages */
