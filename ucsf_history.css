@@ -744,5 +744,14 @@ div#footerlogo img {
 }
 
 .topic {
-    line-height: 15px;
+    line-height: 22px;
+}
+
+.topic dt {
+    margin-bottom: 4px;
+}
+
+.topic dd {
+    margin-left: 0;
+    margin-bottom: 22px
 }
