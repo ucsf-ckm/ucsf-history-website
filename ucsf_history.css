@@ -14,11 +14,21 @@ body {
     background-color: #9ba6b6;
 }
 
-h4 {
+h3,h4 {
     font-family: 'Crimson Text', serif;
-    font-size: 22px;
-    color: #052049;
     font-weight: 400;
+    color: #052049;
+    clear: both;
+}
+
+h3 {
+    padding: 12px 0;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 22px;
 }
 
 /*--------------------- */
@@ -503,15 +513,6 @@ font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:10px;
     line-height: 13px;
     color:#8c2626;
-}
-
-h3 {
-    padding: 12px 0;
-    font-family: 'Crimson Text', serif;
-    font-size: 28px;
-    font-weight: 400;
-    color: #052049;
-    line-height: 30px;
 }
 
 /* Dates list per 1990 and 2000+ pages */
